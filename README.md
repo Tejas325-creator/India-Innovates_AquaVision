@@ -7,7 +7,7 @@ In this project, we designed a compact autonomous floating robotic platform that
 
 The system combines hyperspectral sensing, computer vision, edge AI computing, and autonomous navigation to create a scalable solution for environmental monitoring.
 
-Problem Statement
+# Problem Statement
 
 Plastic pollution and algal blooms are increasing rapidly in rivers, lakes, and oceans.
 
@@ -33,7 +33,7 @@ Increasing chlorophyll concentration is strongly linked with harmful algal bloom
 
 Because of these limitations, continuous and automated monitoring systems are needed.
 
-Proposed Solution
+# Proposed Solution
 
 To solve this problem, we developed AquaVision, an Autonomous Surface Vehicle (ASV) capable of monitoring water quality and plastic pollution in real time.
 
@@ -51,7 +51,7 @@ GPS-tagged pollution mapping
 
 Remote monitoring through dashboard
 
-System Architecture
+# System Architecture
 
 The AquaVision system consists of three main layers.
 
@@ -126,7 +126,7 @@ Environmental monitoring insights
 Dashboard Link
 https://www.figma.com/make/BD4xYXpUbujyMAYHktA4DD/SIH-25-AQUAVISION-DASHBOARD
 
-Machine Learning Models
+# Machine Learning Models
 
 Two main machine learning pipelines were developed for this project.
 
@@ -160,9 +160,9 @@ GridSearchCV used to optimize model parameters.
 
 Model performance:
 
-R² score = 0.89
+# R² score = 0.89
 
-Output:
+# Output:
 
 Real-time mapping of chlorophyll-a concentration with GPS tagging.
 
@@ -170,7 +170,7 @@ Plastic Detection
 
 Floating plastic debris is detected using image data from the onboard RGB camera.
 
-Processing pipeline:
+# Processing pipeline:
 
 Image preprocessing and dataset labeling
 
@@ -202,7 +202,7 @@ mAP@50 = 90.3%
 
 Precision = 0.92
 
-Output:
+# Output:
 
 Real-time detection and mapping of plastic debris.
 
@@ -242,7 +242,7 @@ Higher payload capacity
 
 Lower hydrodynamic drag
 
-Key Features
+# Key Features
 
 Autonomous environmental monitoring
 
@@ -287,9 +287,7 @@ https://colab.research.google.com/drive/1gsbV323A5NfXGnf4YZ1ztKU1EiQKCGFd
 Plastic Detection Model
 https://app.roboflow.com/amazonml-96xmr/plastic-detection-sih-mis4v/models
 
-Team
-
-Team AquaVision
+# Team AquaVision
 
 Tejas Shriramwar
 
